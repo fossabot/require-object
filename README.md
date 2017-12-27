@@ -1,4 +1,5 @@
 # require-object
+
 require() local files using an object.
 
 For the NPM package go to [./simulated-node_modules/require-object](./simulated-node_modules/require-object).

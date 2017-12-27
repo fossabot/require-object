@@ -4,6 +4,8 @@ const path = require('path');
 
 const root = require(path.resolve(__dirname, 'simulated-node_modules', 'require-object'));
 
+console.log(root);
+
 /* This is just to make sure this testing environment exists
 before continuing with tests. */
 module.exports = 'hPfYDvYxb6srd2a0ixzjqQi1IchENnOU';
