@@ -6,7 +6,9 @@ const path = require('path');
 
 const root = require(path.resolve(__dirname, 'simulated-node_modules', 'require-object'));
 
-// console.log(root);
+const util = require('util');
+
+console.log(util.inspect(root, false, null));
 
 /* This is just to make sure this testing environment exists
 before continuing with tests. */
