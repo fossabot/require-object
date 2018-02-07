@@ -1,6 +1,6 @@
 {
-	"name": "require-object-test-environment",
-	"description": "require() local files using an object.",
+	"name": "require-object-development-environment",
+	"description": "require() local files using an object (development environment. Version number not updated. See './simulated-node_modules/require-object' for npm package).",
 	"version": "0.0.0",
 	"scripts": {
 		"watch": "nodemon index.js"
